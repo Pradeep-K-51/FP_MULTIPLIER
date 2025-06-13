@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Copyright: © 2019-2020, Chris Larsen
-// Engineer:
-//
-// Create Date: 07/26/2019 07:19:00 PM
-// Design Name:
-// Module Name: fp_mul_tb_16
-// Project Name:
-// Target Devices:
-// Tool Versions:
-// Description:
-//
-// Dependencies:
-//
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-//
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module fp_mul_tb_16;
   parameter NEXP = 5;
@@ -30,12 +10,6 @@ module fp_mul_tb_16;
   wire [LAST_FLAG-1:0] flags;
 
   integer i, j, k, l, m, n, outfile;
-
- /* initial
-  begin
-    $monitor("p (%x %b) = a (%x) * b (%x)", p, flags, a, b);
-  end
-*/
 
 initial begin
         // Open file for writing
